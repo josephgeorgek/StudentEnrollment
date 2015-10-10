@@ -26,8 +26,10 @@ public class DbUtil {
 					String password = properties.getProperty("password");
 
 					Class.forName(dbDriver).newInstance();
+					
 					dbConnection = DriverManager.getConnection(connectionUrl,
 							userName, password);
+					System.out.println("connectionUrl:"+connectionUrl);
 				}
 			} catch (Exception e) {
 				e.printStackTrace();
