@@ -7,10 +7,7 @@ import org.junit.Test;
 
 public class OnboardingTest {
 
-	@Test
-	public void test() {
-		fail("Not yet implemented");
-	}
+
 	@Test
 	  public void testFoo() throws Exception {
 		Onboarding one = new Onboarding();
