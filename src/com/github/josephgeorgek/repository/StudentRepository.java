@@ -14,6 +14,7 @@ public class StudentRepository {
 	
 	public StudentRepository() {
 		dbConnection = DbUtil.getConnection();
+		System.out.println("dbConnection:"+dbConnection);
 	}
 	
 	public void save(String userName, String password, String firstName, String lastName, String dateOfBirth, String emailAddress) {
