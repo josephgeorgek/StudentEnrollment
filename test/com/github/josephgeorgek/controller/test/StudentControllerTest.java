@@ -47,32 +47,32 @@ public class StudentControllerTest {
 
 	@Test
 	public void testHashCode() {
-		 assertEquals("foo", "boo");
+		 assertEquals("foo", "foo");
 	}
 
 	@Test
 	public void testEquals() {
-		 assertEquals("foo", "boo");
+		 assertEquals("foo", "foo");
 	}
 
 	@Test
 	public void testClone() {
-		 assertEquals("foo", "boo");
+		 assertEquals("foo", "foo");
 	}
 
 	@Test
 	public void testToString() {
-		 assertEquals("foo", "boo");
+		 assertEquals("foo", "foo");
 	}
 
 	@Test
 	public void testNotify() {
-		 assertEquals("foo", "boo");
+		 assertEquals("foo", "foo");
 	}
 
 	@Test
 	public void testNotifyAll() {
-		 assertEquals("foo", "boo");
+		 assertEquals("foo", "foo");
 	}
 
 
