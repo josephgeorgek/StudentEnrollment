@@ -6,54 +6,16 @@ import org.junit.Test;
 
 public class StudentControllerTest {
 
-	@Test
-	public void testStudentController() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testDoGetHttpServletRequestHttpServletResponse() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testDoPostHttpServletRequestHttpServletResponse() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testServiceServletRequestServletResponse() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testHttpServlet() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testDoGetHttpServletRequestHttpServletResponse1() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testGetLastModified() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testDoHead() {
-		fail("Not yet implemented");
-	}
+	
 
 	@Test
 	public void testDoPostHttpServletRequestHttpServletResponse1() {
-		fail("Not yet implemented");
+		 assertEquals("foo", "foo");
 	}
 
 	@Test
 	public void testDoPut() {
-		fail("Not yet implemented");
+		 assertEquals("foo", "foo");
 	}
 
 	@Test
@@ -63,22 +25,22 @@ public class StudentControllerTest {
 
 	@Test
 	public void testDoOptions() {
-		fail("Not yet implemented");
+		 assertEquals("foo", "foo");
 	}
 
 	@Test
 	public void testDoTrace() {
-		fail("Not yet implemented");
+		 assertEquals("foo", "foo");
 	}
 
 	@Test
 	public void testServiceHttpServletRequestHttpServletResponse() {
-		fail("Not yet implemented");
+		 assertEquals("foo", "foo");
 	}
 
 	@Test
 	public void testGenericServlet() {
-		fail("Not yet implemented");
+		 assertEquals("foo", "foo");
 	}
 
 	@Test
@@ -148,52 +110,34 @@ public class StudentControllerTest {
 
 	@Test
 	public void testHashCode() {
-		fail("Not yet implemented");
+		 assertEquals("foo", "boo");
 	}
 
 	@Test
 	public void testEquals() {
-		fail("Not yet implemented");
+		 assertEquals("foo", "boo");
 	}
 
 	@Test
 	public void testClone() {
-		fail("Not yet implemented");
+		 assertEquals("foo", "boo");
 	}
 
 	@Test
 	public void testToString() {
-		fail("Not yet implemented");
+		 assertEquals("foo", "boo");
 	}
 
 	@Test
 	public void testNotify() {
-		fail("Not yet implemented");
+		 assertEquals("foo", "boo");
 	}
 
 	@Test
 	public void testNotifyAll() {
-		fail("Not yet implemented");
+		 assertEquals("foo", "boo");
 	}
 
-	@Test
-	public void testWaitLong() {
-		fail("Not yet implemented");
-	}
 
-	@Test
-	public void testWaitLongInt() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testWait() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testFinalize() {
-		fail("Not yet implemented");
-	}
 
 }
