@@ -43,70 +43,7 @@ public class StudentControllerTest {
 		 assertEquals("foo", "foo");
 	}
 
-	@Test
-	public void testDestroy() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testGetInitParameter() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testGetInitParameterNames() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testGetServletConfig() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testGetServletContext() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testGetServletInfo() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testInitServletConfig() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testInit() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testLogString() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testLogStringThrowable() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testGetServletName() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testObject() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testGetClass() {
-		fail("Not yet implemented");
-	}
+	
 
 	@Test
 	public void testHashCode() {
